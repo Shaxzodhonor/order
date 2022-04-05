@@ -1,4 +1,3 @@
-import foods from '../../assets/data/food';
 import './foodBox.scss';
 
 
