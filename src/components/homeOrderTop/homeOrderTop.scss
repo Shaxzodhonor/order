@@ -1,0 +1,43 @@
+.order-top {
+  display: flex;
+  flex-direction: column;
+  height: 144px;
+  border-bottom: 3px solid #393C49;
+  border-radius: 3px;
+  h2 {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    
+  }
+  .order-button-wrap {
+    height: 60px;
+    button {
+      display: inline-block;
+      margin-right: 10px;
+      background: #EA7C69;
+      border-radius: 8px;
+      height: 46px;
+    }
+  }
+  .order-info {
+    height: 20px;
+    span:nth-child(2) {
+      display: inline-block;
+      margin-left: auto;
+      margin-right: 17px;
+    }
+    span {
+      font-family: Barlow;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      color: #FFFFFF;
+      display: inline-block;
+    }
+    
+  }
+}
